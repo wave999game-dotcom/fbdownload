@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>‌‌ေ၀့ ဝေ့ကိုးသုံးလုံး — Download</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@500;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg0:#050509; --bg1:#0b0b12;
+  --gold1:#ffe7a6; --gold2:#f7c75e;
+  --text: rgba(255,255,255,.92);
+  --muted: rgba(255,255,255,.70);
+  --cardA: rgba(255,255,255,.08);
+  --cardB: rgba(0,0,0,.55);
+  --shadow: rgba(0,0,0,.65);
+  --line: rgba(255,255,255,.15);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:"Noto Sans Myanmar","Poppins",sans-serif;
+  min-height:100vh; color:var(--text);
+  background:
+    radial-gradient(900px 520px at 50% -10%, rgba(247,199,94,.18), transparent 55%),
+    radial-gradient(1200px 900px at 50% 120%, rgba(0,0,0,.95), transparent 55%),
+    linear-gradient(180deg, var(--bg1), var(--bg0));
+  display:flex; justify-content:center;
+}
+.wrap{width:100%;max-width:440px;padding:18px;}
+.logo{
+  width:92px;height:92px;margin:12px auto 10px;border-radius:22px;overflow:hidden;
+  box-shadow:0 18px 50px rgba(0,0,0,.6), 0 0 26px rgba(247,199,94,.25);
+}
+.logo img{width:100%;height:100%;object-fit:cover;}
+.card{
+  background:linear-gradient(180deg,var(--cardA),var(--cardB));
+  border-radius:26px;padding:22px;text-align:center;
+  box-shadow:0 24px 70px var(--shadow), 0 0 20px rgba(247,199,94,.15);
+}
+h1{
+  font-size:30px;font-weight:900;margin:8px 0 8px;
+  background:linear-gradient(90deg,#fff,var(--gold1),var(--gold2));
+  -webkit-background-clip:text;color:transparent;
+}
+.meta{
+  font-size:13px;line-height:1.65;color:var(--muted);margin-bottom:14px;
+}
+.meta b{color:rgba(255,255,255,.92);}
+.btn{
+  width:100%;display:flex;justify-content:space-between;align-items:center;
+  padding:16px;border-radius:20px;text-decoration:none;
+  background:linear-gradient(90deg,#fff1c9,var(--gold2));
+  box-shadow:0 20px 40px rgba(0,0,0,.55), 0 0 32px rgba(247,199,94,.35);
+  color:#1a1206;font-weight:900;margin-top:6px;
+  animation:pulse 2s infinite;
+  -webkit-tap-highlight-color: transparent;
+}
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.04);}}
+.btn:active{transform:scale(.97);}
+.left{display:flex;gap:12px;align-items:center;}
+.ic{
+  width:42px;height:42px;border-radius:12px;display:grid;place-items:center;
+  background:rgba(0,0,0,.12);font-size:20px;
+}
+.txt{text-align:left;}
+.big{font-size:16px;}
+.sub{font-size:12px;opacity:.72;margin-top:2px;}
+.arrow{font-size:22px;}
+.note{margin-top:10px;font-size:12px;color:var(--muted);line-height:1.6;}
+.divider{margin:16px 0;height:1px;background:var(--line);}
+.support-title{font-weight:800;margin-bottom:10px;}
+.row{display:flex;gap:10px;}
+.pill{
+  flex:1;text-decoration:none;padding:12px;border-radius:14px;
+  background:rgba(255,255,255,.08);color:white;font-weight:800;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.tg svg{ fill:#229ED9; } .vb svg{ fill:#7360F2; }
+svg{ width:18px;height:18px; }
+.footer{margin-top:8px;font-size:12px;opacity:.5;text-align:center;}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <!-- Netlify Forms tracking (hidden) -->
+  <form name="kw_event" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input name="bot-field" />
+    <input name="event_type" />
+    <input name="ts" />
+    <input name="page" />
+    <input name="variant" />
+    <input name="ttclid" />
+    <input name="ref" />
+    <input name="ua" />
+  </form>
+
+  <div class="logo">
+    <img src="logo.png" alt="ဝေ့ကိုးသုံးလုံး">
+  </div>
+
+  <div class="card">
+    <h1>ဝေ့ကိုးသုံးလုံး</h1>
+
+    <div class="meta">
+      ✔ လုံခြုံသော Download • ✔ 24/7 ၀န်ဆောင်မှု<br>
+      <b>⏰ ယနေ့ ဆာဗာလွတ်ချိန် အတွင်း အကောင့်ဖွင့်ပါ</b>
+    </div>
+
+    <!-- Fail-safe href -->
+    <a href="./download.html" class="btn" id="openBtn">
+      <div class="left">
+        <div class="ic">⬇️</div>
+        <div class="txt">
+          <div class="big" id="btnTitle">မူရင်း App ဒေါင်းရန်</div>
+          <div class="sub" id="btnSub">ဘရောင်ဇာမှာ အဆင်ပြေစွာ ဒေါင်းလိုက်ပါ</div>
+        </div>
+      </div>
+      <div class="arrow">➜</div>
+    </a>
+
+    <div class="note" id="tip">
+      TikTok မှာ မရပါက Open in browser နဲ့ဖွင့်ပါ။
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="support-title">အကူအညီလိုပါက ဆက်သွယ်ရန်</div>
+    <div class="row">
+      <a class="pill tg" href="https://tinyurl.com/wavebot9" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M9.04 15.44 8.8 19.14c.35 0 .5-.15.69-.33l1.66-1.59 3.44 2.52c.63.35 1.08.17 1.25-.58l2.27-10.65c.22-.97-.35-1.35-.96-1.13L3.23 9.53c-.92.36-.91.87-.17 1.1l3.45 1.08L15.6 6.6c.43-.26.82-.12.5.14L9.04 15.44z"/></svg>
+        Telegram
+      </a>
+      <a class="pill vb" href="https://tinyurl.com/viberbotw9" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M20.52 3.48C18.84 1.8 15.98 1 12 1S5.16 1.8 3.48 3.48C1.8 5.16 1 8.02 1 12c0 4.3.92 6.77 2.79 8.5l-.63 3.12c-.08.4.29.77.69.69l3.12-.63C8.7 23.08 11.7 24 12 24c3.98 0 6.84-.8 8.52-2.48C22.2 19.84 23 16.98 23 13s-.8-6.84-2.48-8.52z"/></svg>
+        Viber
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">© မူရင်း ကျွဲစစ်စစ်</div>
+</div>
+
+<script>
+(function(){
+  // ---------- Attribution (ttclid etc.) ----------
+  function getParams(){
+    var p = {};
+    try{
+      var usp = new URLSearchParams(location.search);
+      usp.forEach(function(v,k){ p[k]=v; });
+    }catch(e){}
+    return p;
+  }
+  function getTTCLID(params){
+    return params.ttclid || params.ttclid1 || params.clickid || "";
+  }
+  var params = getParams();
+  var ttclid = getTTCLID(params);
+
+  // Persist attribution for next page
+  try{
+    var saved = JSON.parse(localStorage.getItem("kw_attr") || "{}");
+    var merged = Object.assign({}, saved, params);
+    if (ttclid) merged.ttclid = ttclid;
+    localStorage.setItem("kw_attr", JSON.stringify(merged));
+  }catch(e){}
+
+  // ---------- Netlify Forms event logging ----------
+  function postEvent(type, extra){
+    var v = window.__KW_VARIANT || "A";
+    var data = {
+      "form-name":"kw_event",
+      "event_type": type,
+      "ts": new Date().toISOString(),
+      "page": location.pathname,
+      "variant": v,
+      "ttclid": (ttclid || (function(){ try{ return (JSON.parse(localStorage.getItem("kw_attr")||"{}").ttclid)||""; }catch(e){return "";} })()),
+      "ref": document.referrer || "",
+      "ua": navigator.userAgent || ""
+    };
+    if(extra){
+      for(var k in extra){ data[k] = String(extra[k]); }
+    }
+
+    // sendBeacon first
+    try{
+      var body = new URLSearchParams(data).toString();
+      if(navigator.sendBeacon){
+        return navigator.sendBeacon("/", new Blob([body], {type:"application/x-www-form-urlencoded"}));
+      }
+    }catch(e){}
+
+    // fallback fetch
+    try{
+      return fetch("/", {
+        method:"POST",
+        headers:{ "Content-Type":"application/x-www-form-urlencoded" },
+        body: new URLSearchParams(data).toString()
+      });
+    }catch(e){}
+  }
+
+  // ---------- A/B Test (Button copy) ----------
+  function pickVariant(){
+    // force by ?v=A or ?v=B
+    var forced = (params.v || "").toUpperCase();
+    if(forced === "A" || forced === "B") return forced;
+
+    // persist variant
+    var key = "kw_variant_btn";
+    var v = "";
+    try{ v = localStorage.getItem(key) || ""; }catch(e){}
+    if(v === "A" || v === "B") return v;
+
+    v = (Math.random() < 0.5) ? "A" : "B";
+    try{ localStorage.setItem(key, v); }catch(e){}
+    return v;
+  }
+
+  var variant = pickVariant();
+  window.__KW_VARIANT = variant;
+
+  var btnTitle = document.getElementById("btnTitle");
+  var btnSub = document.getElementById("btnSub");
+
+  if(variant === "A"){
+    btnTitle.textContent = "မူရင်း App ဒေါင်းရန်";
+    btnSub.textContent = "ဘရောင်ဇာမှာ အဆင်ပြေစွာ ဒေါင်းလိုက်ပါ";
+  }else{
+    btnTitle.textContent = "App ကို ယခုဒေါင်းရန်";
+    btnSub.textContent = "Open in browser နဲ့ဖွင့်ပြီး ဒေါင်းပါ";
+  }
+
+  // ---------- TikTok tip ----------
+  function isTikTok(){ return /TikTok/i.test(navigator.userAgent); }
+  if(isTikTok()){
+    document.getElementById("tip").innerHTML =
+      'TikTok မှာ မရပါက ⋯ → <b>Open in browser</b> ကိုနှိပ်ပြီး Chrome နဲ့ဖွင့်ပါ။';
+  }
+
+  // Log page view
+  postEvent("view");
+
+  // ---------- Open button behavior ----------
+  var DOWNLOAD_PAGE = location.origin + "/download.html";
+  var btn = document.getElementById("openBtn");
+
+  function isAndroid(){ return /Android/i.test(navigator.userAgent); }
+
+  btn.addEventListener("click", function(e){
+    e.preventDefault();
+
+    // Log click
+    postEvent("click_open_download");
+
+    // carry attribution + variant to download.html
+    var url = new URL(DOWNLOAD_PAGE);
+    try{
+      var attr = JSON.parse(localStorage.getItem("kw_attr") || "{}");
+      // keep ttclid at least
+      if(attr && attr.ttclid) url.searchParams.set("ttclid", attr.ttclid);
+    }catch(e){}
+    url.searchParams.set("v", variant);
+
+    if(!isAndroid()){
+      window.location.href = url.toString();
+      return;
+    }
+
+    var clean = url.toString().replace(/^https?:\/\//, "");
+    var intent = "intent://" + clean + "#Intent;scheme=https;package=com.android.chrome;end";
+    window.location.href = intent;
+
+    setTimeout(function(){
+      window.location.href = url.toString();
+    }, 700);
+  });
+
+})();
+</script>
+
+</body>
+</html>

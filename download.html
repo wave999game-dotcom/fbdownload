@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ဝေ့ကိုးသုံးလုံး — Download</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@500;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg0:#050509; --bg1:#0b0b12;
+  --goldA:#ffe7a6; --goldB:#f7c75e; --goldC:#ffb84a;
+  --text: rgba(255,255,255,.92);
+  --muted: rgba(255,255,255,.70);
+  --cardA: rgba(255,255,255,.08);
+  --cardB: rgba(0,0,0,.55);
+  --shadow: rgba(0,0,0,.65);
+  --line: rgba(255,255,255,.15);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:"Noto Sans Myanmar","Poppins",sans-serif;
+  min-height:100vh;color:var(--text);
+  background:
+    radial-gradient(900px 520px at 50% -10%, rgba(247,199,94,.18), transparent 55%),
+    radial-gradient(1200px 900px at 50% 120%, rgba(0,0,0,.95), transparent 55%),
+    linear-gradient(180deg, var(--bg1), var(--bg0));
+  display:flex;justify-content:center;
+}
+.wrap{width:100%;max-width:440px;padding:18px;}
+.logo{
+  width:90px;height:90px;margin:12px auto 10px;border-radius:22px;overflow:hidden;
+  box-shadow:0 18px 50px rgba(0,0,0,.6), 0 0 26px rgba(247,199,94,.25);
+}
+.logo img{width:100%;height:100%;object-fit:cover;}
+.card{
+  background:linear-gradient(180deg,var(--cardA),var(--cardB));
+  border-radius:26px;padding:22px;text-align:center;
+  box-shadow:0 24px 70px var(--shadow), 0 0 20px rgba(247,199,94,.15);
+}
+h1{
+  font-size:28px;font-weight:900;margin:8px 0 10px;
+  background:linear-gradient(90deg,#fff,var(--goldA),var(--goldB));
+  -webkit-background-clip:text;color:transparent;
+}
+.meta{font-size:13px;line-height:1.6;color:var(--muted);margin-bottom:14px;}
+
+.btn{
+  position:relative;
+  width:100%;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:16px;border-radius:22px;text-decoration:none;
+  background:
+    radial-gradient(120px 60px at 20% 30%, rgba(255,255,255,.45), rgba(255,255,255,0) 55%),
+    linear-gradient(90deg, #fff5da, var(--goldB), var(--goldC));
+  color:#1a1206;font-weight:900;margin-top:6px;
+  box-shadow:0 22px 55px rgba(0,0,0,.58), 0 0 46px rgba(255,184,74,.40);
+  overflow:hidden;
+  animation:pulse 2.1s ease-in-out infinite;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn::before{
+  content:"";
+  position:absolute;
+  inset:-40% -35%;
+  background:linear-gradient(120deg,
+    rgba(255,255,255,0) 35%,
+    rgba(255,255,255,.55) 50%,
+    rgba(255,255,255,0) 65%);
+  transform:translateX(-40%) rotate(10deg);
+  animation:shine 2.4s ease-in-out infinite;
+  pointer-events:none;
+}
+@keyframes shine{
+  0%{transform:translateX(-50%) rotate(10deg); opacity:0;}
+  20%{opacity:.95;}
+  60%{transform:translateX(55%) rotate(10deg); opacity:.25;}
+  100%{transform:translateX(70%) rotate(10deg); opacity:0;}
+}
+@keyframes pulse{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-2px);}
+}
+.btn:active{transform:scale(.97);}
+
+.left{display:flex;gap:12px;align-items:center;}
+.ic{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:rgba(0,0,0,.12);font-size:20px;}
+.txt{text-align:left;}
+.big{font-size:16px;letter-spacing:.2px;}
+.sub{font-size:12px;opacity:.78;margin-top:2px;}
+.arrow{font-size:22px;}
+
+.small{margin-top:12px;font-size:12px;color:var(--muted);line-height:1.6;}
+.small a{color:#fff;text-decoration:underline;font-weight:800;}
+
+.divider{margin:16px 0;height:1px;background:var(--line);}
+.support-title{font-weight:800;margin-bottom:10px;}
+.row{display:flex;gap:10px;}
+.pill{
+  flex:1;text-decoration:none;padding:12px;border-radius:14px;
+  background:rgba(255,255,255,.08);color:white;font-weight:800;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.tg svg{ fill:#229ED9; } .vb svg{ fill:#7360F2; }
+svg{ width:18px;height:18px; }
+.footer{margin-top:8px;font-size:12px;opacity:.5;text-align:center;}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <!-- Netlify Forms tracking (hidden) -->
+  <form name="kw_event" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input name="bot-field" />
+    <input name="event_type" />
+    <input name="ts" />
+    <input name="page" />
+    <input name="ref" />
+    <input name="ua" />
+    <input name="ttclid" />
+    <input name="variant" />
+  </form>
+
+  <div class="logo"><img src="logo.png" alt="ဝေ့ကိုးသုံးလုံး"></div>
+
+  <div class="card">
+    <h1>ဝေ့ကိုးသုံးလုံး</h1>
+    <div class="meta">✔ လုံခြုံသော Download • ✔ 24/7 ၀န်ဆောင်မှု</div>
+
+    <!-- Main Download -->
+    <a href="https://wave999.vercel.app/kyay688.apk" class="btn" id="dlBtn">
+      <div class="left">
+        <div class="ic">⬇️</div>
+        <div class="txt">
+          <div class="big">App ဒေါင်းရန်</div>
+          <div class="sub">တစ်ချက်နှိပ်ပြီး ဒေါင်းလိုက်ပါ</div>
+        </div>
+      </div>
+      <div class="arrow">➜</div>
+    </a>
+
+    <div class="small">
+      ဒေါင်းမရပါက
+      <a id="backup" href="https://www.wave999.com/cms-profile/file/2026/04/29/wave999_tp8_4-3_v1.0.3_20260429155142A001.apk" target="_blank" rel="noopener">Backup link</a>
+      ကိုသုံးပါ။
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="support-title">အကူအညီလိုပါက ဆက်သွယ်ရန်</div>
+    <div class="row">
+      <a class="pill tg" href="https://tinyurl.com/wavebot9" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M9.04 15.44 8.8 19.14c.35 0 .5-.15.69-.33l1.66-1.59 3.44 2.52c.63.35 1.08.17 1.25-.58l2.27-10.65c.22-.97-.35-1.35-.96-1.13L3.23 9.53c-.92.36-.91.87-.17 1.1l3.45 1.08L15.6 6.6c.43-.26.82-.12.5.14L9.04 15.44z"/></svg>
+        Telegram
+      </a>
+      <a class="pill vb" href="https://tinyurl.com/viberbotw9" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M20.52 3.48C18.84 1.8 15.98 1 12 1S5.16 1.8 3.48 3.48C1.8 5.16 1 8.02 1 12c0 4.3.92 6.77 2.79 8.5l-.63 3.12c-.08.4.29.77.69.69l3.12-.63C8.7 23.08 11.7 24 12 24c3.98 0 6.84-.8 8.52-2.48C22.2 19.84 23 16.98 23 13s-.8-6.84-2.48-8.52z"/></svg>
+        Viber
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">© မူရင်း ကျွဲစစ်စစ်</div>
+</div>
+
+<script>
+(function(){
+  // ======= CONFIG =======
+  var APK_URL = "./wave999.apk";
+  var THANKYOU_URL = "./thankyou.html";
+
+  // ======= PARAMS (optional) =======
+  function getParam(name){
+    try{ return new URLSearchParams(location.search).get(name) || ""; }catch(e){ return ""; }
+  }
+  var ttclid = getParam("ttclid");
+  var variant = (getParam("v") || "A").toUpperCase();
+
+  // ======= Track (Netlify Forms) =======
+  function postEvent(type){
+    try{
+      var data = {
+        "form-name":"kw_event",
+        "event_type": type,
+        "ts": new Date().toISOString(),
+        "page": location.pathname,
+        "ref": document.referrer || "",
+        "ua": navigator.userAgent || "",
+        "ttclid": ttclid,
+        "variant": variant
+      };
+      var body = new URLSearchParams(data).toString();
+      if(navigator.sendBeacon){
+        navigator.sendBeacon("/", new Blob([body], {type:"application/x-www-form-urlencoded"}));
+        return;
+      }
+      fetch("/", { method:"POST", headers:{ "Content-Type":"application/x-www-form-urlencoded" }, body: body });
+    }catch(e){}
+  }
+
+  postEvent("view_download");
+
+  function buildThankYou(){
+    try{
+      var u = new URL(THANKYOU_URL, location.href);
+      if(ttclid) u.searchParams.set("ttclid", ttclid);
+      if(variant) u.searchParams.set("v", variant);
+      return u.toString();
+    }catch(e){
+      return THANKYOU_URL;
+    }
+  }
+
+  function openDownloadAndGoThankYou(downloadUrl){
+    var ty = buildThankYou();
+
+    // ✅ Best: open APK in new tab (download continues) then redirect current tab to ThankYou
+    var w = null;
+    try{ w = window.open(downloadUrl, "_blank"); }catch(e){}
+
+    // If popup blocked, fallback: trigger download in same tab then redirect after short delay
+    if(!w){
+      window.location.href = downloadUrl;
+      setTimeout(function(){ window.location.href = ty; }, 2000);
+      return;
+    }
+
+    // Popup OK: go ThankYou immediately
+    setTimeout(function(){ window.location.href = ty; }, 2000);
+  }
+
+  document.getElementById("dlBtn").addEventListener("click", function(e){
+    e.preventDefault();
+    postEvent("click_apk_download");
+
+    // Use absolute URL for better reliability
+    var downloadUrl = "";
+    try{ downloadUrl = new URL(APK_URL, location.href).toString(); }catch(err){ downloadUrl = APK_URL; }
+
+    openDownloadAndGoThankYou(downloadUrl);
+  });
+
+  document.getElementById("backup").addEventListener("click", function(){
+    postEvent("click_backup_download");
+  });
+})();
+</script>
+
+</body>
+</html>
